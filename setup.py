@@ -173,7 +173,7 @@ setup(
         "cloudpickle",
         "tqdm>4.29.0",
         "tensorboard",
-        "panopticapi @ https://github.com/cocodataset/panopticapi/archive/master.zip,
+        "panopticapi @ https://github.com/cocodataset/panopticapi/archive/master.zip",
         # Lock version of fvcore/iopath because they may have breaking changes
         # NOTE: when updating fvcore/iopath version, make sure fvcore depends
         # on compatible version of iopath.

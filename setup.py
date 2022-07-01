@@ -173,6 +173,7 @@ setup(
         "cloudpickle",
         "tqdm>4.29.0",
         "tensorboard",
+        "panopticapi @ https://github.com/cocodataset/panopticapi/archive/master.zip,
         # Lock version of fvcore/iopath because they may have breaking changes
         # NOTE: when updating fvcore/iopath version, make sure fvcore depends
         # on compatible version of iopath.
@@ -195,8 +196,7 @@ setup(
             "scipy>1.5.1",
             "shapely",
             "pygments>=2.2",
-            "psutil",
-            "panopticapi @ https://github.com/cocodataset/panopticapi/archive/master.zip",
+            "psutil"
         ],
         # dev dependencies. Install them by `pip install 'detectron2[dev]'`
         "dev": [
